@@ -1,0 +1,12 @@
+create a fie here in vscode - (.env)
+whenever you have an envviroment running or working on never allow an .env github
+but enter .ignore and write (.env) to prevent been empered with or hact
+
+mongoose is framework of mongodb
+
+VALIDATION
+type: String, Number, Boolean, Date, ArrayStrung
+String - (minlength, maxlength)
+
+
+schema most be define - mongodb -(mongoose) can take in data 
