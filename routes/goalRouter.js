@@ -15,9 +15,8 @@ router.post("/", createGoal);
 router.get("/", getAllGoals);
 router.get("/ongoing", getOngoingGoals);
 router.get("/completed", getCompletedGoals);
-router.get("/:goalid", getSingleGoal);
-router.patch("/:goalid", updateGoal);
-router.delete("/:goalid", deleteGoal);
-
+router.get("/:goalId", getSingleGoal);
+router.patch("/:goalId", updateGoal);
+router.delete("/:goalId", deleteGoal);
 
 module.exports = router;

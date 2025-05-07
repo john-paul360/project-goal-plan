@@ -1,12 +1,14 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors")
 const app = express();
 const port = 3000;
 const goalRouter = require("./routes/goalRouter");
 
 // middleware they are function that runs on the server between the request and responses
 app.use(express.json()); // parse json data
+app.use(cors())
 
 
 // home route

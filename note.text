@@ -10,3 +10,15 @@ String - (minlength, maxlength)
 
 
 schema most be define - mongodb -(mongoose) can take in data 
+
+MVC ARCHITECTURE creating folder and file proper
+M - (modules where we build the schema | title, description and parttern | timestams for data validation and proper recordings)
+CONTROLLERS - (is where all of the function will be writen | create a goal, delete a goal, complete a goal, single goal)
+ROUTES -(all the modules will be imported to the routes)
+app.js -( everythings ends up in app.js )
+
+DATA SETTING/SORTING  - (is the proper arrangement of data from new to old or old to new)
+
+ORIGIN - (the starting and the finishing of evry propram)
+CORS - (cross-oriin resources sharing) POLICY
+cors meddleware
