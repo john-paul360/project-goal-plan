@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 const goalRouter = require("./routes/goalRouter");
 
-// middleware they function that runs on the server between the request and responses
+// middleware they are function that runs on the server between the request and responses
 app.use(express.json()); // parse json data
 
 

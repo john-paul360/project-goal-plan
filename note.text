@@ -1,6 +1,6 @@
 create a fie here in vscode - (.env)
-whenever you have an envviroment running or working on never allow an .env github
-but enter .ignore and write (.env) to prevent been empered with or hact
+whenever you have an envviroment running or working on never allow github bofore an .env
+but enter .ignore and write (.env) to prevent been tempered with or hacked
 
 mongoose is framework of mongodb
 
