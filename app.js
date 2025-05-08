@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors")
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const goalRouter = require("./routes/goalRouter");
 
 // middleware they are function that runs on the server between the request and responses
